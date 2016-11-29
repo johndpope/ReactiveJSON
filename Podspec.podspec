@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "ReactiveJSON"
   s.version      = "1.0"
   s.summary      = "Swift networking for JSON services, using ReactiveCocoa"
-  s.description  = ""
+  s.description  = "ReactiveCocoa"
   s.homepage     = "https://github.com/KevinVitale/ReactiveJSON"
   s.license      = { :type => "Apache 2.0", :file => "LICENSE.md" }
   s.author       = "Quick Contributors"
