@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ReactiveJSON"
-  s.version      = "1.0.1"
+  s.version      = "0.0.6"
   s.summary      = "Swift networking for JSON services, using ReactiveCocoa"
   s.description  = "ReactiveCocoa"
   s.homepage     = "https://github.com/KevinVitale/ReactiveJSON"
