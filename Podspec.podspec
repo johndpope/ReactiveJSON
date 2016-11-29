@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.weak_framework = "XCTest"
   s.requires_arc = true
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'OTHER_LDFLAGS' => '-weak-lswiftXCTest', 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks"' }
+  s.dependency = 'ReactiveCocoa'
 end
