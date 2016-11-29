@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ReactiveJSON"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "Swift networking for JSON services, using ReactiveCocoa"
   s.description  = "ReactiveCocoa"
   s.homepage     = "https://github.com/KevinVitale/ReactiveJSON"
@@ -16,4 +16,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'OTHER_LDFLAGS' => '-weak-lswiftXCTest', 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks"' }
   s.dependency = 'ReactiveCocoa'
+  s.dependency = 'Quick'
+  s.dependency = 'ReactiveCocoa'
+  
 end
